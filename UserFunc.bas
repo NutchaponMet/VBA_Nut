@@ -1,10 +1,10 @@
 Attribute VB_Name = "UserFunc"
 Function save_file()
     If ActiveSheet.Name = "sourth" Then
-        ActiveWorkbook.SaveAs Filename:="C:\Users\NUTCHAPON.M\Desktop\SAP GUI\Sourth.xlsx"
+        ActiveWorkbook.SaveAs Filename:="C:\Users\NUTCHAPON.M\Desktop\Sourth.xlsx"
         ActiveWorkbook.Close
     Else
-        ActiveWorkbook.SaveAs Filename:="C:\Users\NUTCHAPON.M\Desktop\SAP GUI\North_East.xlsx"
+        ActiveWorkbook.SaveAs Filename:="C:\Users\NUTCHAPON.M\Desktop\North_East.xlsx"
         ActiveWorkbook.Close
     End If
 End Function
